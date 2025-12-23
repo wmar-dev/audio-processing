@@ -16,4 +16,8 @@ for f in *.flac; do ffmpeg -i "$f" -acodec alac "${f%.flac}.m4a"; done
 ```
 
 ## References
-- https://trac.ffmpeg.org/wiki/Encode/MP3
+- [Audio Fingerprinting: Combining Computer Vision & Data Stream Processing](https://doi.org/10.1109/ICASSP.2007.366210)
+- [FFmpeg MP3 Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/MP3)
+- [Fingerprinting](https://musicbrainz.org/doc/Fingerprinting)
+- [mu-law algorithm](https://en.wikipedia.org/wiki/Mu-law_algorithm)
+- [Vorbis audio compression](https://xiph.org/vorbis/)
